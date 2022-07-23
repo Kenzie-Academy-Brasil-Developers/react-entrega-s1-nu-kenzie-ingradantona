@@ -1,0 +1,16 @@
+.totalValue{
+    box-sizing: border-box;
+    width: 380px;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid var(--grey2);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.totalValue > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

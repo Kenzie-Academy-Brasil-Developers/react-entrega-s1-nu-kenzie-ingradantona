@@ -7,12 +7,16 @@
 }
 .form--section{
     flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 .list--section{
     flex: 3;
     display: flex;
     flex-direction: column;
     gap: 25px;
+    margin-bottom: 30px;
 }
 .noCard{
     display: flex;

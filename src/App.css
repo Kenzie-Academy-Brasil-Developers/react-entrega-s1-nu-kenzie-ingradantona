@@ -44,12 +44,18 @@
     line-height: 34px;
     color: var(--grey4);
 }
+.title2--pink{
+    color: var(--color-primary);
+}
 .title3{
     font-family: Nunito;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
     color: var(--grey4);
+}
+.title3--pink{
+    color: var(--color-primary);
 }
 .title4{
     font-family: Nunito;

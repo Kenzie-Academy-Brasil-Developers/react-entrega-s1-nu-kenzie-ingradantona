@@ -1,5 +1,6 @@
 .form{
-    max-width: 350px;
+    box-sizing: border-box;
+    width: 380px;
     height: 350px;
     padding: 38px 25px;
     border: 1px solid var(--grey2);
