@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@400;500;700&display=swap');
+
+body{
+    font-family: Nunito;
+}
+
+:root{
+    --color-primary: #FD377E;
+    --color-primary2: #E34981;
+    --color-primary3: #03B898;
+
+    --grey4: #212529;
+    --grey3: #868E96;
+    --grey2: #E9ECEF;
+    --grey1: #F8F9FA;
+}

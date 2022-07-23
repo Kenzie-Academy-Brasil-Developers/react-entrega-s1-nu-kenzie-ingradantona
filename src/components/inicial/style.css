@@ -1,0 +1,19 @@
+.initial{
+    background-color: var(--grey4);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.login{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.initial--image{
+    max-height: 90vh;
+}

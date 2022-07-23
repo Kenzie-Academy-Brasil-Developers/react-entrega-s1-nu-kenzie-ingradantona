@@ -1,0 +1,41 @@
+.transaction__list{
+    max-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.transaction{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    background-color: var(--grey1);
+    border-radius: 4px;
+}
+.deposit{
+    width: 5px;
+    height: 100%;
+    background-color: var(--color-primary3);
+    border-radius: 4px 0 0 4px;
+}
+.debit{
+    width: 5px;
+    height: 100%;
+    background-color: var(--grey2);
+    border-radius: 4px 0 0 4px;
+}
+.transaction--description{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.transaction--value{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 15px;
+}

@@ -1,0 +1,80 @@
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 20px;
+    width: 80%;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px transparent;
+    cursor: pointer;
+    color: var(--grey4);
+}
+.button__pink{
+    background-color: var(--color-primary);
+    color: var(--grey1);
+}
+.button__small{
+    width: 80px;
+}
+.button__large{
+    width: 100%;
+}
+.button__delete{
+    box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+
+}
+.title1{
+    font-family: Nunito;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 48px;
+    color: var(--grey4);
+}
+.title1__white{
+    color: var(--grey1);
+}
+
+.title2{
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    color: var(--grey4);
+}
+.title3{
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--grey4);
+}
+.title4{
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 26px;
+    color: var(--grey4);
+}
+.headline{
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--grey4);    
+}
+.headline__white{
+    color: var(--grey1);
+}
+.body{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: var(--grey4);
+}
+.hide{
+    display: none;
+}
