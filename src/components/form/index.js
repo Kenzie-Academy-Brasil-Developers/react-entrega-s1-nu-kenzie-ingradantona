@@ -3,8 +3,7 @@ import Module from "../module"
 import { useState } from "react"
 import "./style.css"
 
-export default function Form ({setTransactionList, transactionList}){
-    const [totalValue, setTotalValue] = useState(0)
+export default function Form ({setTransactionList, transactionList, totalValue, setTotalValue}){
     const [transaction, setTransaction] = useState(true)
 
     function newTransaction (input){

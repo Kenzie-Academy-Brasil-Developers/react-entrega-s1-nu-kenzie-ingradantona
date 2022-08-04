@@ -1,9 +1,18 @@
 import trash from '../../img/trash.png'
 import './style.css'
 
-export default function List({transactionList, setTransactionList}){
+export default function List({transactionList, setTransactionList, setTotalValue}){
     const deleteIten = (i) => {
         const newList = transactionList.filter((element, index) => i !== index)
+
+        console.log(newList)
+        
+        let sum = newList.reduce((acc, element) => {
+            return element.type === 'entrada' ? acc + element.value : acc - element.value
+        }, 0)
+
+        setTotalValue(sum)
+
         setTransactionList(newList)
     }
     
